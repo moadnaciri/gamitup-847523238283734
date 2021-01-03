@@ -237,7 +237,7 @@ function HomeScreen(props) {
               <button className="button" data-filter=".publications">Publications</button>
             </div>*/}
             <div className="grid row">
-              {BestSellingProducts.map((product,i) => (
+              {BestSellingProducts?.map((product,i) => (
                 <div key={i} className="element-item col-md-6 event publications  ">
                 <div className="news-item style-3" style={{ border: '1px solid lightblue', borderRadius: '5px' }}>
                   <div className="img-warpper ">
@@ -339,7 +339,7 @@ function HomeScreen(props) {
         
           <div className="col-lg-12">
           <div className="team-slider-2 row">
-            {products.map((product, i) => (
+            {products?.map((product, i) => (
               
             <div key={i} className="team-item col-12" >
 
