@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy": "https://git.heroku.com/api-gamitup-backend.git",
+  "proxy": "https://gamitup-047350485394-api.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
